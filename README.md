@@ -1,12 +1,12 @@
 # BASE
 
-基于ELF做的一个贺卡模板。[线上地址](https://l-zhi.com/dist2/index.html)
+一个H5的婚礼贺卡邀请函，方便你我他幸福千万家. [线上地址](https://l-zhi.com/dist2/index.html)
 
 ## 开始
 
 [体验地址](https://l-zhi.com/dist2/index.html)
 
-需要先安装 [ELF](https://github.com/o2team/elf)
+基于ELF做的一个贺卡模板, 需要先安装 [ELF](https://github.com/o2team/elf)
 
 ```bash
 
