@@ -24,7 +24,7 @@ npm install # 或者使用 yarn install
 elf start
 
 # 构建
-elf run build
+elf build
 ```
 
 ## 其他
