@@ -1,33 +1,26 @@
-基于ELF做的一个贺卡模板, 需要先安装[ELF](https://github.com/o2team/elf) 
+a html5 marry card , need install [cherub](https://github.com/l-zhi/cherub) before.
 
-[体验地址](https://l-zhi.com/dist2/index.html)
+[demo](https://l-zhi.com/dist2/index.html)
 
-## 安装
+Translations: [简体中文](https://github.com/l-zhi/marrycard/blob/master/README.zh_CN.md)
+
+## install
 
 ```bash
 
-# mac/linux
-SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/ npm install -g elf-cli --registry=https://registry.npm.taobao.org
+sudo install -g cherub
 
-# windows
-npm install -g elf-cli --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ --PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/
-
-# 安装ELF之后，clone 项目，安装依赖
+# clone this repository
 
 clone https://github.com/l-zhi/marrycard.git
 
 cd marrycard
 
-npm install # 或者使用 yarn install
+npm install
 
-# 开发模式
-elf start
+# run
+cherub start
 
-# 构建
-elf build
+# build
+cherub build
 ```
-
-## 其他
-
-1. 开发脚手架依赖于ELF
-2. 后端数据存储用的是[leancloud](https://leancloud.cn/)，可配置自己的数据存储地址 main.js 92行

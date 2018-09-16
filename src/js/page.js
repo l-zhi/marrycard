@@ -1,11 +1,10 @@
 
 require('../css/main.scss')
-require('../plugin/bg.mp3')
 var page = {}, _page = []
 var Iris = require('./lib/iriswipe.js')
 var iris = Iris({
     duration: 600
-})
+}) 
 
 var currPage = 0
 var ys = [{ y: 200 }, { y: 200 }, { y: 200 }, { y: 200 }, { y: 200 }, { y: 200 }, { y: 200 }]

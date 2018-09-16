@@ -1,9 +1,6 @@
-require('../index.html')
-
 var Preloader = require('./lib/preloader.js')
 var Slider = require('./lib/slider.js')
 var page = require('./page.js')
-require('../img/share.jpg')
 var audio = 0, $audio = 0
 var hasMusic = false
 var playAudio = function () {
@@ -22,7 +19,7 @@ var pauseAudio = function () {
  * preloader && start
  */
 var preloader = new Preloader({
-  resources: ['img/share.jpg', 'img/loading.png', 'img/border1.png', 'img/sprite.icon.png', 'img/sprite.icon2.png'],
+  resources: ['img/loading.png', 'img/border1.png', 'img/sprite.icon.png', 'img/sprite.icon2.png'],
   concurrency: 4,
   perMinTime: 1000 // 加载每个资源所需的最小时间，一般用来测试 loading
 })
@@ -61,7 +58,7 @@ function init() {
     } else {
       playAudio();
     }
-  })
+  })  
   new Slider('.slider', {
     sliderOut: function (slider, idx) {
       page.get(idx).slideOut($.proxy(slider.countinue, slider))
@@ -106,8 +103,8 @@ function init() {
     })
   })
 }
-
-
+/* 
+微信已经不支持此方式分享
 var wxShare = function (t, i, e, s, n, a, o, r) {
   document.addEventListener("WeixinJSBridgeReady", function () {
     WeixinJSBridge.on("menu:share:timeline", function (r) {
@@ -158,4 +155,4 @@ var wxShare = function (t, i, e, s, n, a, o, r) {
     })
   })
 }
-wxShare('../img/share.jpg', 200, 200, location.href, '分享标题', '分享文案');
+wxShare('../img/share.jpg', 200, 200, location.href, '分享标题', '分享文案'); */
