@@ -7,10 +7,10 @@
 ```bash
 
 # mac/linux
-SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/ npm install -g elf-cli --registry=https://registry.npm.taobao.org
+SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ npm install -g cherub --registry=https://registry.npm.taobao.org
 
 # windows
-npm install -g elf-cli --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ --PHANTOMJS_CDNURL=https://npm.taobao.org/mirrors/phantomjs/
+npm install -g cherub --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/
 
 # 安装ELF之后，clone 项目，安装依赖
 
@@ -21,10 +21,10 @@ cd marrycard
 npm install # 或者使用 yarn install
 
 # 开发模式
-elf start
+cherub start
 
 # 构建
-elf build
+cherub build
 ```
 
 ## 其他
