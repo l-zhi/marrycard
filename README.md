@@ -8,7 +8,7 @@ Translations: [简体中文](https://github.com/l-zhi/marrycard/blob/master/READ
 
 ```bash
 
-sudo install -g cherub
+sudo npm install -g cherub
 
 # clone this repository
 

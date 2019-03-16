@@ -7,10 +7,10 @@
 ```bash
 
 # mac/linux
-SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ npm install -g cherub --registry=https://registry.npm.taobao.org
+SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ sudo npm install -g cherub --registry=https://registry.npm.taobao.org
 
 # windows
-npm install -g cherub --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/
+sudo npm install -g cherub --registry=https://registry.npm.taobao.org --SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/
 
 # 安装ELF之后，clone 项目，安装依赖
 
